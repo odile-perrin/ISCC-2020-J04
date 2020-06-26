@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "nasalization-rg";
+    src: url('assetsD03/nasalization-rg');
+}
+
+@font-face{
+    font-family: "open_sans.ttf";
+    src: url('assetsD04/OpenSans-Regular.ttf');
+}
+
+
+header{
+     width: 100%;
+     height: 25%;
+     border: solid;
+    }
+
+    h1{
+        text-align:center;
+        color: #27d1ff;
+        font-size: 40px;
+    }
+    
+    h2{
+        text-align:center;
+        text-shadow: 0.1em 0.1em #333;
+        background-color: #e6e6e6;
+    }
+
+    p{
+        width:750px;
+        text-align: center;
+        margin-left:23%;
+        padding: 10px;
+    }
+
+    .menu {
+        background-color: #2e2f30;
+        width:100%;
+        display: inline-block;
+        list-style-type: none;
+        text-align: right; 
+        padding: 0;
+        margin: 0;
+      }
+      
+    #navigation {
+        display: inline;
+        font-size: 20px;
+        padding: 20px;
+      }
+
+    #imgtexture
+    {
+        height: 150px;
+    }
+
+.iscc1{
+float:left;
+margin-left:50px;
+width:45%;
+}
+
+.iscc2{
+float:right;
+width:45%;
+margin-right:50px;
+}
+
+body{background-color: #f2f2f2;
+height:810px;}
+
+
+.logo{
+    width:15% ;
+    margin-top: 50px;
+    margin-left: 42.5%;
+}
