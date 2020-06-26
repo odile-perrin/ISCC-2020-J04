@@ -68,7 +68,8 @@ margin-right:50px;
 }
 
 body{background-color: #f2f2f2;
-height:810px;}
+height:810px;
+font-size: 14px;}
 
 .table {
   empty-cells: show;
@@ -82,6 +83,48 @@ td{
     padding:5px;
 }
 
+#nom{
+    width:250px;
+    height:30px;
+    border:2px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+#nom:hover{
+    border:2px solid blue;
+}
+
+#mail{
+    width: 250px;
+    height:30px;
+    border:2px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+#mail:hover{
+    border:2px solid blue;
+}
+
+#amelioration{
+    width:250px;
+    height:70px;
+    border:2px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+#amelioration:hover{
+    border:2px solid blue;
+}
+
+input[type="submit"]{
+    background-color:#27d1ff;
+    border:2px solid #27d1ff;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: #17c1ff;
+    border:2px solid #17c1ff;
+}
+    
 .logo{
     width:15% ;
     margin-top: 50px;
