@@ -122,7 +122,7 @@ td{
     margin-bottom: 10px;
 }
 #nom:hover{
-    border:2px solid blue;
+    border:2px solid #17c1ff;
 }
 
 #mail{
@@ -132,7 +132,7 @@ td{
     margin-bottom: 10px;
 }
 #mail:hover{
-    border:2px solid blue;
+    border:2px solid#17c1ff;
 }
 
 #amelioration{
@@ -143,7 +143,7 @@ td{
 }
 
 #amelioration:hover{
-    border:2px solid blue;
+    border:2px solid #17c1ff;
 }
 
 input[type="submit"]{
