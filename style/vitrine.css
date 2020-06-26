@@ -83,10 +83,12 @@ width:45%;
 margin-right:50px;
 }
 
-body{background-color: #f2f2f2;
+body{
+background-color: #f2f2f2;
 height:810px;
 font-size: 14px;
-font-family: "opensans";}
+font-family: "opensans";
+}
 
 .table {
   empty-cells: show;
@@ -96,17 +98,20 @@ font-family: "opensans";}
     background-color: #27d1ff;
     color:white;
 }
+
 td{
     padding:3px;
 }
 
 #tableau{
-    width: 420px;
+    width: 450px;
     background-color: white;
     padding-left: 2px;
     padding-right: 2px;
     height : 480px;
-    horizontal-align: middle;
+    overflow-y: scroll;
+    min-width: 200px;
+    height: 480px;
 }
 
 #nom{
@@ -161,7 +166,7 @@ fieldset{
 }
 
 .logo{
-    width:15% ;
+    width:15%;
     margin-top: 50px;
     margin-left: 42.5%;
 }
