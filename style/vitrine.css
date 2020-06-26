@@ -20,7 +20,7 @@ header{
         color: #27d1ff;
         font-size: 40px;
     }
-    
+
     h2{
         text-align:center;
         text-shadow: 0.1em 0.1em #333;
@@ -70,6 +70,17 @@ margin-right:50px;
 body{background-color: #f2f2f2;
 height:810px;}
 
+.table {
+  empty-cells: show;
+}
+
+.tete{
+    background-color: #27d1ff;
+    color:white;
+}
+td{
+    padding:5px;
+}
 
 .logo{
     width:15% ;
