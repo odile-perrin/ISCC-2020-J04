@@ -1,11 +1,11 @@
 @font-face{
     font-family: "nasalization-rg";
-    src: url('assetsD03/nasalization-rg');
+    src: url('nasalization-rg.ttf');
 }
 
 @font-face{
-    font-family: "open_sans.ttf";
-    src: url('assetsD04/OpenSans-Regular.ttf');
+    font-family: "opensans";
+    src: url('OpenSans-Regular.ttf');
 }
 
 
@@ -19,14 +19,17 @@ header{
         text-align:center;
         color: #27d1ff;
         font-size: 40px;
+        font-family: "nasalization-rg";
+        vertical-align: middle;
     }
 
     h2{
         text-align:center;
-        text-shadow: 0.1em 0.1em #333;
+        text-shadow: 0.1em 0.1em grey;
         background-color: #e6e6e6;
         width: 100%;
         height:35px;
+        font-family: "opensans";
     }
 
     p{
@@ -44,6 +47,7 @@ header{
         text-align: right; 
         padding: 0;
         margin: 0;
+        color: white;
       }
       
     #navigation {
@@ -71,7 +75,8 @@ margin-right:50px;
 
 body{background-color: #f2f2f2;
 height:810px;
-font-size: 14px;}
+font-size: 14px;
+font-family: "opensans";}
 
 .table {
   empty-cells: show;
@@ -82,15 +87,16 @@ font-size: 14px;}
     color:white;
 }
 td{
-    padding:5px;
+    padding:3px;
 }
 
 #tableau{
-    width: 400px;
+    width: 420px;
     background-color: white;
     padding-left: 2px;
     padding-right: 2px;
     height : 480px;
+    horizontal-align: middle;
 }
 
 #nom{
